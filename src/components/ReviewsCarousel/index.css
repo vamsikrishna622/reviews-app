@@ -1,0 +1,83 @@
+/* Write your code here */
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 42px;
+  text-align: center;
+  margin-top: 64px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 128px;
+  }
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 140px;
+    width: 140px;
+  }
+}
+.image-container {
+  align-self: center;
+}
+.arrow-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-name {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .user-name {
+    font-size: 24px;
+  }
+}
+.company-name {
+  text-align: center;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .company-name {
+    font-size: 16px;
+  }
+}
+.description {
+  text-align: center;
+  color: #171f46;
+  font-size: 19px;
+  font-weight: 400;
+  margin-right: 44px;
+  margin-left: 44px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 28px;
+    max-width: 1024px;
+  }
+}
